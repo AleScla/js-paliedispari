@@ -7,12 +7,25 @@
     </head>
     <body>
         <form>
+            <label for="scelta-utente">Scegli tra pari e dispari</label>
             <select id="scelta-utente">
                 <option value="pari">Pari</option>
                 <option value="dispari">Dispari</option>
             </select>
-            <label for="scelta-numero"></label>
+            <label for="scelta-numero"> Scegli un numero tra 1 e 5</label>
             <input type="number" min="1" max="5" id="scelta-numero">
+            <button type="submit">Scopri subito chi ha vinto</button>
+            <div>
+                <p id="utente"></p>
+            </div>
+            <div>
+                <p id="pc"></p>
+            </div>
+            <div id="estrazione">
+
+            </div>
+
+            <p id="risultato"></p>
         </form>
         <script src="js/scripts.js"></script>
     </body>
